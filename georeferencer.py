@@ -10,7 +10,7 @@ input_dir = 'B:/Workspaces/QGIS/VIRDE/NS67/tiff/'
 output_dir = 'B:/Workspaces/QGIS/VIRDE/NS67/geotiff/'
 
 input_csv = 'B:/Workspaces/R/VIRDE/georeference.csv'
-output_script_file = 'B:/Workspaces/Python/VIRDE/georeferencer/georeferencer.bat'
+output_script_file = 'B:/Workspaces/Python/georeferencer/georeferencer.bat'
 
 
 with open(output_script_file, 'w') as output_script:
