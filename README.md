@@ -3,6 +3,7 @@ Script for georeferencing aerial images with GDAL given magnetometer and IMU rea
 
 ### Workflow
 
-1. R calculates corner coordiantes using package `geosphere`
-2. Python writes CSV to batch file
-3. Batchfile runs GDAL_translate.exe on images
+1. Payload captures images and notes bearing (magnetometer), pitch, roll, and yaw (IMU)
+2. R calculates corner coordinates using package `geosphere` given camera FOV and writes to CSV file
+3. Python writes CSV file to batch file of GDAL commands
+4. Batchfile runs GDAL_translate.exe on images using corner coordinates as Ground Control Points (GCP)
