@@ -7,8 +7,8 @@ Created on Jul 20, 2017
 import os
 from osgeo import gdal
 
-input_dir = 'B:/Workspaces/QGIS/VIRDE/NS67/tiff/'
-output_dir = 'B:/Workspaces/QGIS/VIRDE/NS67/geotiff/'
+input_dir = 'B:/Workspaces/GIS/VIRDE/NS67/tiff/'
+output_dir = 'B:/Workspaces/GIS/VIRDE/NS67/geotiff/'
 
 input_csv = 'B:/Workspaces/R/VIRDE/georeference.csv'
 
