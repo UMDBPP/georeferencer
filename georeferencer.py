@@ -6,7 +6,7 @@ Created on Jul 20, 2017
 MUST BE RUN FROM OSGeo4W SHELL
 '''
 
-print "This script must be run from the OSGeo4W shell in order to import GDAL"
+print("This script must be run within an OSGeo4W environment")
 
 import os
 import progressbar
@@ -17,7 +17,7 @@ output_dir = 'B:/Workspaces/GIS/UMDBPP/VIRDE/NS67/geotiff/'
 
 input_csv = 'B:/Workspaces/R/VIRDE/georeference.csv'
 
-print "%s -> %s using %s" % (input_dir, output_dir, input_csv) 
+print("%s -> %s using %s" % (input_dir, output_dir, input_csv)) 
 
 # define column starting georeferenced points
 starting_col = 9
